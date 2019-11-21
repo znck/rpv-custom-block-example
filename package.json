@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Rahul Kadyan <rahulkdn@gmail.com> (https://znck.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.0.0",
+    "@rollup/plugin-yaml": "^2.0.0",
+    "rollup": "^1.27.3",
+    "rollup-plugin-vue": "^5.1.4",
+    "vue-template-compiler": "2.6.10"
+  },
+  "dependencies": {
+    "vue": "2.6.10",
+    "vue-i18n": "^8.15.0"
+  }
+}
